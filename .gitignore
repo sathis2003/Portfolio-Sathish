@@ -1,0 +1,11 @@
+node_modules
+dist
+.DS_Store
+*.local
+*.tsbuildinfo
+dev-server*.log
+
+# Env — keep EmailJS credentials out of version control
+.env
+.env.*
+!.env.example
